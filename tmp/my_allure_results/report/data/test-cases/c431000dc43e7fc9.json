@@ -1,0 +1,78 @@
+{
+  "uid" : "c431000dc43e7fc9",
+  "name" : "test_foo[1-2]",
+  "fullName" : "testdata.test_yaml.TestData#test_foo",
+  "historyId" : "5ca7ad7955819d47bd713664969af820",
+  "time" : {
+    "start" : 1615647149337,
+    "stop" : 1615647149337,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4d3ca5c2ed1ba80",
+      "name" : "stdout",
+      "source" : "d4d3ca5c2ed1ba80.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testdata"
+  }, {
+    "name" : "suite",
+    "value" : "test_yaml"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestData"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "9492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testdata.test_yaml"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c431000dc43e7fc9.json",
+  "parameterValues" : [ "1", "2" ]
+}

@@ -1,5 +1,7 @@
 #！/usr/bin/env python
 #！-*- coding:utf-8 -*-
+# 导入pytest-ordering控制用例的执行顺序
+
 import  pytest
 
 class TestPytest(object):

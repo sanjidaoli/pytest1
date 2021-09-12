@@ -1,0 +1,56 @@
+{
+  "uid" : "3c56458d192428c7",
+  "name" : "test_eval[7*5-35]",
+  "fullName" : "test_parametrize#test_eval",
+  "historyId" : "e78577b089481f01f51ee07bfe7dfc32",
+  "time" : {
+    "start" : 1615647149199,
+    "stop" : 1615647149199,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "9492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "35"
+  }, {
+    "name" : "test_input",
+    "value" : "'7*5'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c56458d192428c7.json",
+  "parameterValues" : [ "35", "'7*5'" ]
+}

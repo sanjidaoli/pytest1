@@ -1,0 +1,193 @@
+{
+  "uid" : "fdf1b3e61ce33d00",
+  "name" : "test_steps_demo[unittest]",
+  "fullName" : "testdata.test_baidudemo#test_steps_demo",
+  "historyId" : "ca5126eb522d53eb58ffae817463121d",
+  "time" : {
+    "start" : 1615651810021,
+    "stop" : 1615651820923,
+    "duration" : 10902
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开百度网页",
+      "time" : {
+        "start" : 1615651810021,
+        "stop" : 1615651813932,
+        "duration" : 3911
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入搜索词: unittest",
+      "time" : {
+        "start" : 1615651813932,
+        "stop" : 1615651818265,
+        "duration" : 4333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "保存图片",
+      "time" : {
+        "start" : 1615651818265,
+        "stop" : 1615651818667,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1365628d67e066f",
+        "name" : "d3c01039-214d-4c2f-ae93-abf471bf77b8-attachment.png",
+        "source" : "b1365628d67e066f.png",
+        "type" : "image/png",
+        "size" : 246030
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1615651818668,
+        "stop" : 1615651820923,
+        "duration" : 2255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testdata"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidudemo"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "16976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testdata.test_baidudemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "'unittest'"
+  } ],
+  "links" : [ {
+    "name" : "http://www.github.com",
+    "url" : "http://www.github.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "80e6eaaea16972a6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1615651572354,
+        "stop" : 1615651572389,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "865e38ee4ec5b07c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from http://selenium-release.storage.googleapis.com/index.html and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver",
+      "time" : {
+        "start" : 1615651553580,
+        "stop" : 1615651553609,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "d8438500792512cc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from http://selenium-release.storage.googleapis.com/index.html and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver",
+      "time" : {
+        "start" : 1615650514218,
+        "stop" : 1615650514244,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "e73a132608b49948",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1615650196745,
+        "stop" : 1615650196774,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "ea90e09daec259f4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1615650013023,
+        "stop" : 1615650013024,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "25b51da3756d12b8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1615649911765,
+        "stop" : 1615649911766,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdf1b3e61ce33d00.json",
+  "parameterValues" : [ "'unittest'" ]
+}

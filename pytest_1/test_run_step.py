@@ -1,5 +1,7 @@
 #！/usr/bin/env python
 #！-*- coding:utf-8 -*-
+# pytest框架的执行顺序
+
 def setup_module():
     print("\nsetup_module,只执行一次，当有多个测试类的时候使用")
 
